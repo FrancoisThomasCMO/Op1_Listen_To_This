@@ -1,0 +1,239 @@
+
+header{
+    background-color: #330066;
+    color: #330066;
+    margin: auto;
+}
+
+.body {
+    max-width: 500px;
+    margin: auto;
+}
+
+body {
+    height: 1000px;
+    background-image: linear-gradient(#f8d2f8, rgb(25, 27, 145));
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPklEQVQoU2NkQAPnr/w/Y6jDaIIuzogsAFOETTFcIbokOh+sEJd1yOKMuBTBnASTR3EjugeQFROlEKSBaIUAzBMnd+cqbgMAAAAASUVORK5CYII=) repeat;
+}
+
+#navbarNav {
+    margin: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+
+
+article {
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #ff5757;
+    /*height: 100%;*/ /* methode 2 om de hoogte van de articles gelijk te maken */
+    position: relative;
+    padding: 30px;
+    margin: 80px;
+}
+
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #330066;
+    color: #ff5757;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #533770;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ff5757;
+    transition: max-height 0.2s ease-out;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 93, 93);
+  }
+
+.spotify {
+    float: left;
+    margin-bottom: -36px;
+    margin-left: -30px;
+}
+
+/* article hoogte via flex */
+div.hoogteflex {
+    display: flex;
+}
+
+.titel{
+    font-size: 50px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-kerning: 5px;
+    word-spacing: 10px;
+}
+
+.titel span{
+    background-color: #330066; ; 
+    padding: 2px;
+    color: #ff5757;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 10px;
+    color: #330066;
+    text-align: right;
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, Avenir, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #330066;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #330066;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #330066;
+    text-align: right;
+    margin-bottom: -10px;
+}
+
+ol{
+    margin-top: 15px;
+}
+
+li {
+    color: #330066;
+    padding: 4px;
+    margin-right: -20px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.content li:hover, li:active {
+    background-color: #ff6c6c;
+  }
+
+img {
+    margin-left: -80px;
+    margin-top: -60px;
+    padding: -50px;
+}
+
+.year{
+    float: right;
+    margin: -20px;
+    width: 40%;
+    padding: 20px;
+    overflow: auto;
+}
+
+.year h1{
+    text-align: right;
+    margin-right: -11px;
+}
+
+.logoahs{
+    float: right;
+    margin-right: 70px;
+}
+
+footer{
+    background-color: #272727;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.naam{
+    color: #c2c2c2;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+.top {
+    width: 80px;
+    margin-left: 35px;
+}
+
+.top a {
+    font-size: 15px;
+    color: #f82222;
+}
+
+.icon{
+    float: right;
+    padding-right: 0.5vw;
+    }
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
